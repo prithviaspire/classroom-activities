@@ -2,7 +2,7 @@
 int main() {
 char op;
 printf("Enter a math operator (+, -, *, /): ");
-scanf("%c", &op);
+scanf("%c", &op);      //make space before %c scanf(" %c,&op");  notice the changes
                             // space before %c avoids input issues
 switch (op) {
 case '+':
