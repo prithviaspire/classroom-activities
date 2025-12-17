@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
 int n = 1;
-label:
+label: //user-defined label for goto statement
 printf("%d ", n);
 n++;
 if (n <= 10)
