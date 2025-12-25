@@ -9,7 +9,7 @@ int main() {
     while (num != 0) {
         scanf("%d", &num);     
         if (num > 0) {
-            sum += num;          
+            sum =sum + num;          
         }
     }
 
