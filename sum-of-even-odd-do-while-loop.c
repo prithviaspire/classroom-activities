@@ -8,9 +8,9 @@ int main() {
 
     do {
         if (i % 2 == 0) {
-            sumEven += i;  // add to even sum
+            sumEven += i;   
         } else {
-            sumOdd += i;   // add to odd sum
+            sumOdd += i;   
         }
         i++;
     } while (i <= n);
