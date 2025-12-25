@@ -1,24 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int num;
-    int sum = 0;
+    int num;    
+    int sum = 0;     
 
-    printf("Enter positive integers (enter 0 to stop):\n");
+    printf("Enter integers (enter 0 to stop):\n");
 
-    while (1) {
-        scanf("%d", &num);
-
-        if (num == 0) {
-            break;
-        }
-
+    while (num != 0) {
+        scanf("%d", &num);     
         if (num > 0) {
-            sum = sum + num;
+            sum += num;          
         }
     }
 
-    printf("Sum of entered positive integers is %d\n", sum);
+    printf("Sum of all positive integers: %d\n", sum);
 
     return 0;
 }
